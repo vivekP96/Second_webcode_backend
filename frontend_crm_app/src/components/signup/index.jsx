@@ -23,8 +23,8 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // const url = "http://localhost:5000/api/users";
-      const url = "https://crm-second-webcode.onrender.com";
+      const url = "http://localhost:5000/api/users";
+      // const url = "https://crm-second-webcode.onrender.com";
       const { input: res } = await axios.post(url, input);
       alert("User Registered Successfully");
       navigate("/login");
