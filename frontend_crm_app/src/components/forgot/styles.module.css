@@ -1,0 +1,28 @@
+.layout{
+  display :flex;
+  height :100vh;
+  border:solid black 2px;
+  justify-content: center;
+  align-items: center;
+ background-color: azure;
+}
+.borders{
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 10px;
+  
+
+  border:solid gray  1px;
+  width:300px;
+}
+.error_msg {
+  width: 275px;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 14px;
+  background-color: #f34646;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
