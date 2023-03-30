@@ -17,7 +17,9 @@ export default function Resetpassword() {
   const handleSubmit = async (e) => {
     try {
       e.preventDefault();
-      const url = "http://localhost:5000/api/changepassword/:id/:token";
+      // const url = "http://localhost:5000/api/changepassword/:id/:token";
+      const url =
+        "https://crm-second-webcode.onrender.com/api/changepassword/:id/:token";
       console.log("Api call initiated");
       const { data: res } = await axios.post(url, data);
       console.log(res);

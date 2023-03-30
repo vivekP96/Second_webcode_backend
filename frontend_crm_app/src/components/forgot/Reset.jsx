@@ -20,7 +20,9 @@ export default function Reset() {
     console.log("handle submit");
     e.preventDefault();
     try {
-      const url = "http://localhost:5000/api/forgetpassword/forgetpassword";
+      // const url = "http://localhost:5000/api/forgetpassword/forgetpassword";
+      const url =
+        "https://crm-second-webcode.onrender.com/api/forgetpassword/forgetpassword";
       console.log("Api call initiated");
       const { data: res } = await axios.post(url, data);
       console.log(res);
