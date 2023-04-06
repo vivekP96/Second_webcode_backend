@@ -31,11 +31,11 @@ const Home = () => {
             src="https://blog.inmarketing.co/hs-fs/hubfs/112.%20%5BArt%C3%ADculo%5D%205%20pasos%20para%20crear%20un%20embudo%20de%20captaci%C3%B3n%20de%20leads%20de%20calidad/Newsletter-Generacion%20de%20leads.jpg?width=1200&name=Newsletter-Generacion%20de%20leads.jpg/100px180"
           />
           <Card.Body>
-            <Card.Title>Service Requests</Card.Title>
+            <Card.Title>Leads</Card.Title>
             <Card.Text>
               These functionalites are not working Sorry for the issue!!!
             </Card.Text>
-            <Button variant="primary">Service Requests</Button>
+            <Button variant="primary">Leads</Button>
           </Card.Body>
         </Card>
 
